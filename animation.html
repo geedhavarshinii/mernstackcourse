@@ -1,0 +1,33 @@
+<!---Keyframes--->
+<!---at which point of time what needs to be executed--->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Animation</title>
+        <style>
+            div {
+                width: 100px;
+                height: 100px;
+                background-color: blue;
+                animation-name: changeColor;
+                animation-duration: 5s;
+                animation-iteration-count: infinite;
+            }
+
+            @keyframes changeColor {
+                from {
+                    background-color: blue;
+                }
+                to {
+                    background-color: pink;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Animation</h1>
+        <div></div>
+    </body>
+</html>
