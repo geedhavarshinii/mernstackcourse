@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+        <title>Z-Index</title> 
+        <style>
+            #box1 {
+                position: absolute;
+                height: 300px; 
+                width: 500px;
+                background-color: orange;
+                z-index:-1;
+                text-align: center;
+                /*property which defines how a over-lapping will take place*/
+            }
+            #box2 {
+                height: 150px;
+                width: 250px;
+                background-color: green;
+                text-align:center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="box1">dont need nothing more</div>
+        <div id="box2">in a heap on the floor</div>
+    </body>
+</html>
