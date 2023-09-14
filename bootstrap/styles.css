@@ -1,0 +1,25 @@
+.navigation {
+    background: linear-gradient(#4b4bf2, #6262ef, #c8c8ee);
+    width: 100%;
+    z-index: 1;
+}
+
+.home {
+    background-image: url("austriajpg.jpg");
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-size: 100%;
+}
+
+.home p{
+    height: 150px;
+    width: 400px;
+}
+
+.tours {
+    background: linear-gradient(270deg, #4b4bf2, #6262ef, #c8c8ee);
+}
+
+.contact {
+    background: linear-gradient(270deg, #4b4bf2, #6262ef, #c8c8ee)
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My Travel</title>
+        <!--My CSS-->
+        <link rel="stylesheet" href="styles.css">
+        <!--My Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+    </head>
+    <body>
+        <!--Navbar starts-->
+        <nav class="navbar navbar-expand-lg position-fixed navigation">
+            <!--navigation class is my class!! not a bootstrap class--> 
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" href="#">My Travel</a> 
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> 
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#">Tours</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#">About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--Navbar ends-->
+        <!--Home section-->
+        <div class="home pt-5">
+            <h1 class="pt-5 display-1">
+                Welcome to <span class="text-warning">My Travel</span>
+            </h1>
+            <p class="pt-4 mt-5 text-dark ps-5">The world is a book; if you don't travel, you miss out on reading the world.</p>
+        </div>
+        <!--Home section ends-->
+        <!--Tours and Packages-->
+        <div class="tours p-3">
+            <h1 class="text-center bg-white p-3">Tours and Packages</h1>
+            <div class="container">
+                <div class="row">
+                    <!--start of 1 row-->
+                    <div class="col-sm p-2 m-2">
+                    <!--card start-->
+                    <div class="card" style="width: 18rem">
+                    <img class="card-img-top" src="austriajpg.jpg" alt="Austria" />
+                    <div class="card-body">
+                        <h5 class="card-title">Austria</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                    </div>
+               </div>
+               <!--card ends-->
+            </div>
+            <div class="col-sm p-2 m-2">
+                <!--card start-->
+                <div class="card" style="width: 18rem">
+                <img class="card-img-top" src="austriajpg.jpg" alt="Austria" />
+                <div class="card-body">
+                    <h5 class="card-title">Austria</h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    </p>
+                </div>
+                </div>
+                <!--card ends-->
+            </div>
+            <div class="col-sm p-2 m-2">
+                <!-- card start -->
+                <div class="card" style="width: 18rem">
+                  <img class="card-img-top" src="austriajpg.jpg" alt="austria" />
+                  <div class="card-body">
+                    <h5 class="card-title">Austria</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                </div>
+                <!-- card ends -->
+              </div>
+            <!--end of 1 row-->
+        </div>
+        <div class="row">
+            <div class="col-sm p-2 m-2">
+                <!--card start-->
+                <div class="card" style="width: 18rem">
+                <img class="card-img-top" src="austriajpg.jpg" alt="Austria" />
+            <div class="card-body">
+                <h5 class="card-title">Austria</h5>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                </p>
+            </div>
+            </div>
+            <!--card ends-->
+        </div>
+        <div class="col-sm p-2 m-2">
+            <!--card start-->
+            <div class="card" style="width: 18rem">
+            <img class="card-img-top" src="austriajpg.jpg" alt="Austria" />
+        <div class="card-body">
+            <h5 class="class-title">Austria</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        </div>
+        <!--card ends-->
+    </div>
+    <div class="col-sm p-2 m-2">
+      <!-- card start -->
+      <div class="card" style="width: 18rem">
+        <img class="card-img-top" src="austriajpg.jpg" alt="austria" />
+        <div class="card-body">
+          <h5 class="card-title">Austria</h5>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+      </div>
+      <!-- card ends -->
+        </div>
+        </div>
+        </div>
+        </div>
+    <!--Tours and Packages ends-->
+    <!--Contact form starts-->
+    <div class="d-flex contact">
+        <h1 class="py-3">Contact us</h1>
+        <form class="px-5 mx-5">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="enter email" class="form-control" />
+            <label for="comment">Enter your message</label>
+            <textarea name="comment" id="comment" cols="30" rows="10" class="form-control" placeholder="enter your message"></textarea>
+        </form>
+        <div class="mx-5 px-5">
+            <h5 class="text-white p-1">We are located at</h5>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.7588072635526!2d77.58101647420412!3d12.92321761593895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15bfd84c8bc7%3A0xca0596cff60b0db9!2sETHNUS!5e0!3m2!1sen!2sin!4v1694595759332!5m2!1sen!2sin" width="400" height="300" style="border:0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <!--contact form ends here-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    </body>
+</html>
